@@ -1,0 +1,12 @@
+/* En tu archivo CSS o en línea en JSX si lo prefieres */
+.recipe-card  {
+    border: 2px solid #0f0e0e; 
+    transition: transform 0.4s; 
+    margin-top: 0px;    
+    width: auto;
+    height: 300px;
+}
+
+.recipe-card :hover {
+    transform: scale(1.05); /* Hacer zoom al pasar el ratón */
+}
